@@ -1,0 +1,260 @@
+:root{
+    --primary-bg:#EAEEF6;
+    --secondary-bg:#F0F5FC;
+    --primary-box-shadow :0px 30px 60px rgba(32, 56, 85, 0.15); 
+    --secondary-box-shadow :0px 10px 30px rgba(57, 85, 120, 0.1); 
+    --primary-font-color:#121212;
+    --primary-opacity:50%;
+    --secondary-opacity:60%;
+    --tertiary-opacity:70%;
+    --quternary-opacity:20%;
+    --primary-border-radius:8px;
+    --secondary-border-radius:8px;
+    --primary-clr-2:#1778B0;
+    --primary-clr-3:#7784EE;
+    --primary-clr-4:#08A0F7;
+    --primary-clr-5:#46BD84;
+    --primary-clr-6:#D459E8;
+    --primary-clr-7:#D2D7FF;
+    --primary-clr-8:#FBA63C;
+    --primary-clr-9:#08A0F70F;
+    --primary-clr-10:#F4F7FC;
+    --primary-clr-11:#A8B5CB;
+    --primary-clr-12:#33AC72;
+    --primary-clr-13:#41475E;
+    --primary-clr-14:#ECF3FE;
+    --primary-clr-15:#A8B5CB;
+    --primary-clr-16:#5F6DDD;
+    --primary-clr-17:#34A770;
+    --primary-clr-18:#C4CAD3;
+    --primary-clr-19:#C9C9C9;
+    --primary-clr-20:#D0D0D0;
+  
+  /*   cards */
+    --card-primary-bg: #FFFFFF;
+    --card-primary-font-clr:#121212;
+    --card-primary-font-family : 'Poppins';
+    --card-primary-width:348px;
+    --card-primary-height:438px;
+    --card-secondary-height:158px;
+    --card-border-radius:8px;
+    --card-priamry-opacity:50%;
+    --card-secondary-opacity:60%;
+  
+  /*   text area  */
+    --text-area-border-clr:1px solid #7784EE;
+    --text-area-bg:#ffff;
+    --text-area-letter-spacing:0.3px;
+    --text-area-font-size:13px;
+    --text-area-font-weight:400;
+    --text-area-opacity:50%;
+  
+  /* icon */
+  
+    --icon-primary-clr:#C4CAD3;
+    --icon-primary-bg:#ffff;
+    --icon-secondary-bg:#5DC983;
+    --icon-secondary-bg2:#7784EE;
+    --icon-secondary-bg3:#FBA63C;
+  
+  /* tags */
+  
+    --tags-primary-bg:#08A0F7;
+    --tags-primary-font-clr:#1778B0;
+    --tags-primary-width:92px;
+    --tags-primary-height:28px;
+    --tag-primary-opacity:20%;
+  
+  
+  /*   check-box and radio-buttons */
+    --checkbox-fill-clr:#08A0F7;
+    --checkbox-unfill-clr:rgba(8, 160, 247, 0.06);
+    --checkbox-primary-bg:#ffff;
+    --checkbox-border:1px solid #08A0F7;
+    --checkbox-border-radius:3px;
+    --checkbox-primary-width:24px;
+    --checkbox-primary-height:24px;
+  
+  /*   search bar */
+    --searchbar-primary-bg:#F4F7FC;
+    --searchbar-secondary-bg:#ffff;
+  /*   Ellipse */
+    --ellipse-primary-color : rgba(168, 181, 203, 1);
+    --ellipse-primary-width: 4px;
+    --ellips-primary-height:4px;
+  
+  /*   menu close  */
+    --menu-close-primary-clr:rgba(149, 163, 185, 1);
+    --menu-close-secondary-width:10px;
+    --menu-close-secondary-height:10px;
+  
+  
+  /*   progress-bar */
+    --progress-bar-primary-bg:#46BD84;
+    --progress-bar-secondary-bg:#08A0F7;
+    --progress-bar-secondary-bg3:#D459E8;
+    --progress-bar-opacity:15%;
+    --prorgress-bar-opacit:10%;
+  
+    
+  /*   button */
+    --button-primary-width:292px;
+    --button-primary-height:49px;
+    --button-primary-bg:#7784EE;
+    --button-secondary-bg:#D2D7FF;
+    --button-tertiary-bg:#EAEEF6;
+    --button-tertiary-border:1px solid #7784EE;
+    --button-primary-border-radius:8px;
+    --button-primary-font-clr:#FFFFFF;
+    --button-secondary-font-clr:#5F6DDD;
+    --button-tertiary-font-clr:#7784EE;
+  
+  /*   dropdown */
+    --dropdown-active-primary:#F0F5FC;
+    --dropdown-secondary-font-color:#41475E;
+  
+  /* notification */
+  
+    --primary-notification-bg:#FFF8F8;
+    --primary-notification-bg2:#FFF8EF;
+    --primary-notification-bg3:#DCF3EB;
+    --primary-notification-bg4:#E1F2FC;
+    --primary-notification-border:0.5px solid #F85640;
+    --primary-notification-border2:0.5px solid #FBA63C;
+    --primary-notification-border3:0.5px solid #34A770;
+    --primary-notification-border4:0.5px solid #08A0F7;
+    --primary-notification-font-clr:#F85640;
+    --primary-notification-font-clr2:#E18109;
+    --primary-notification-font-clr3:#13854E;
+    --primary-notification-font-clr4:#08A0F7;
+    --primary-notification-font-clr5:#79170A;
+    --primary-notification-font-clr6:#BC741A;
+    --primary-notification-font-clr7:#10673E;
+    --primary-notification-font-clr8:#3387B7;
+    
+
+    /* Dark theme */
+
+    --primary-bg-dark:#0E121A;
+    --secondary-bg-dark:#000000;
+    --primary-box-shadow-dark :0px 30px 60px rgba(32, 56, 85, 0.15); 
+    --secondary-box-shadow-dark :0px 10px 30px rgba(57, 85, 120, 0.1); 
+    --primary-font-color-dark:#ffff;
+    --primary-opacity-dark:50%;
+    --secondary-opacity-dark:60%;
+    --tertiary-opacity-dark:70%;
+    --quternary-opacity-dark:20%;
+    --primary-border-radius-dark:8px;
+    --secondary-border-radius-dark:8px;
+    --primary-clr-2-dark:#1778B0;
+    --primary-clr-3-dark:#7784EE;
+    --primary-clr-4-dark:#08A0F7;
+    --primary-clr-5-dark:#46BD84;
+    --primary-clr-6-dark:#D459E8;
+    --primary-clr-7-dark:#D2D7FF;
+    --primary-clr-8-dark:#FBA63C;
+    --primary-clr-9-dark:#08A0F70F;
+    --primary-clr-12-dark:#33AC72;
+    --primary-clr-13-dark:#41475E;
+    --primary-clr-14-dark:#ECF3FE;
+    --primary-clr-15-dark:#A8B5CB;
+    --primary-clr-16-dark:#5F6DDD;
+    --primary-clr-17-dark:#34A770;
+    --primary-clr-18-dark:#C4CAD3;
+    --primary-clr-19-dark:#C9C9C9;
+    --primary-clr-20-dark:#D0D0D0;
+  
+  /*   cards dark*/
+    --card-primary-bg-dark: #FFFFFF;
+    --card-primary-font-family-dark : 'Poppins';
+    --card-primary-width-dark:348px;
+    --card-primary-height-dark:438px;
+    --card-secondary-height-dark:158px;
+    --card-border-radius-dark:8px;
+    --card-priamry-opacity-dark:50%;
+    --card-secondary-opacity-dark:60%;
+  
+  /*   text area-dark  */
+    --text-area-border-clr-dark:1px solid #7784EE;
+    --text-area-letter-spacing-dark:0.3px;
+    --text-area-font-size-dark:13px;
+    --text-area-font-weight-dark:400;
+    --text-area-opacity-dark:50%;
+  
+  /* icon-dark */
+  
+    --icon-primary-clr-dark:#313740;
+    --icon-primary-bg-dark:#A1A1A1;
+    --icon-secondary-bg-dark:#5DC983;
+    --icon-secondary-bg2-dark:#7784EE;
+    --icon-secondary-bg3-dark:#FBA63C;
+  
+  /* tags dark */
+  
+    --tags-primary-bg-dark:#08A0F7;
+    --tags-primary-font-clr-dark:#1778B0;
+    --tags-primary-width:92px;
+    --tags-primary-height:28px;
+    --tag-primary-opacity:20%;
+  
+  
+  /*   check-box and radio-buttons dark*/
+    --checkbox-fill-clr-dark:#08A0F7;
+    --checkbox-unfill-clr-dark:rgba(8, 160, 247, 0.06);
+    --checkbox-border-dark:1px solid #08A0F7;
+    --checkbox-border-radius:3px;
+    --checkbox-primary-width:24px;
+    --checkbox-primary-height:24px;
+  
+  /*   Ellipse dark*/
+    --ellipse-primary-color-dark : rgba(168, 181, 203, 1);
+    --ellipse-primary-width: 4px;
+    --ellips-primary-height:4px;
+  
+  /*   menu close dark */
+    --menu-close-primary-clr-dark:rgba(149, 163, 185, 1);
+    --menu-close-secondary-width:10px;
+    --menu-close-secondary-height:10px;
+  
+  
+  /*   progress-bar */
+    --progress-bar-primary-bg-dark:#46BD84;
+    --progress-bar-secondary-bg-dark:#08A0F7;
+    --progress-bar-secondary-bg3-dark:#D459E8;
+    --progress-bar-opacity:15%;
+    --prorgress-bar-opacit:10%;
+  
+    
+  /*   button dark */
+    --button-primary-width:292px;
+    --button-primary-height:49px;
+    --button-primary-bg-dark:#7784EE;
+    --button-tertiary-border-dark:1px solid #7784EE;
+    --button-primary-border-radius:8px;
+    --button-primary-font-clr-dark:#FFFFFF;
+    --button-secondary-font-clr-dark:#5F6DDD;
+    --button-tertiary-font-clr-dark:#7784EE;
+  
+  /*   dropdown dark */
+    --dropdown-active-primary-dark:#F0F5FC;
+    --dropdown-secondary-font-color-dark:#41475E;
+  
+  /* notification */
+  
+    --primary-notification-bg-dark:#2f1d1d;
+    --primary-notification-bg2-dark:#443a2c;
+    --primary-notification-bg3-dark:#1f382f;
+    --primary-notification-bg4-dark:#283943;
+    --primary-notification-border-dark:0.5px solid #F85640;
+    --primary-notification-border2-dark:0.5px solid #FBA63C;
+    --primary-notification-border3-dark:0.5px solid #34A770;
+    --primary-notification-border4-dark:0.5px solid #08A0F7;
+    --primary-notification-font-clr-dark:#F85640;
+    --primary-notification-font-clr2-dark:#E18109;
+    --primary-notification-font-clr3-dark:#13854E;
+    --primary-notification-font-clr4-dark:#08A0F7;
+    --primary-notification-font-clr5-dark:#79170A;
+    --primary-notification-font-clr6-dark:#BC741A;
+    --primary-notification-font-clr7-dark:#10673E;
+    --primary-notification-font-clr8-dark:#3387B7;
+  }

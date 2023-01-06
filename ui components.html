@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ui Components</title>
+    <link rel="preconnect" href="https://cdn.openai.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style2.css">
+    <link rel="stylesheet" href="./components.css">
+    <link rel="stylesheet" href="./theme.css">
+</head>
+<body> 
+    <div class="top-nav">
+        <div class="navbar">
+            <div class="pheader-left">
+                <div class="pheader-nav pheader-menu-active">
+                    <ion-icon name="aperture-outline"></ion-icon>
+                    <a class="nav-item" onclick="activebrand()">Components</a>
+                    <a class="nav-item ">Elements</a>
+                </div>
+            </div>
+            <div class="pheader-right">
+                <div class="pheader-menu pheader-menu-desktop">
+                    <div class="pheader-menu-desktop-auth">
+                        <div class="nav-item" role="button">Log in</div>
+                        <div class="nav-item" role="button" id="signup">Sign up</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <aside>
+        <div class="page-body full-width flush docs-page">
+            <div class="docs-nav">
+                <div class="side-nav side-nav-padded">
+                    <div class="side-nav-section">
+                        <div class="side-nav-header subheading">Input Controls</div>
+                        <ul>
+                            <div class="container1">
+                                <ul>
+                                  <li class="dropdown1">
+                                    <a href="#" data-toggle="dropdown"><span onclick="activeCheck()">Checkbox</span><i class="icon-arrow"></i></a>
+                                    <ul class="dropdown-menu1">
+                                        <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                    <div class="container1">
+                                                        <ul>
+                                                          <li class="dropdown1">
+                                                            <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                            <ul class="dropdown-menu1">
+                                                              <li><a href="#">Home</a></li>
+                                                              <li><a href="#">About Us</a></li>
+                                                              <li><a href="#">Services</a></li>
+                                                              <li><a href="#">Contact</a></li>
+                                                            </ul>
+                                                          </li>
+                                                        </ul>
+                                                      </div>
+                                                      <div class="container1">
+                                                        <ul>
+                                                          <li class="dropdown1">
+                                                            <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                            <ul class="dropdown-menu1">
+                                                              <li><a href="#">Home</a></li>
+                                                              <li><a href="#">About Us</a></li>
+                                                              <li><a href="#">Services</a></li>
+                                                              <li><a href="#">Contact</a></li>
+                                                            </ul>
+                                                          </li>
+                                                        </ul>
+                                                      </div>
+                                                      <div class="container1">
+                                                        <ul>
+                                                          <li class="dropdown1">
+                                                            <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                            <ul class="dropdown-menu1">
+                                                              <li><a href="#">Home</a></li>
+                                                              <li><a href="#">About Us</a></li>
+                                                              <li><a href="#">Services</a></li>
+                                                              <li><a href="#">Contact</a></li>
+                                                            </ul>
+                                                          </li>
+                                                        </ul>
+                                                      </div>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="container1">
+                                <ul>
+                                  <li class="dropdown1">
+                                    <a href="#" data-toggle="dropdown"><span onclick="activeRadio()">Radio Button</span><i class="icon-arrow"></i></a>
+                                    <ul class="dropdown-menu1">
+                                        <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="container1">
+                                <ul>
+                                  <li class="dropdown1">
+                                    <a href="#" data-toggle="dropdown"><span onclick="activeDropdown()">Dropdown</span><i class="icon-arrow"></i></a>
+                                    <ul class="dropdown-menu1">
+                                        <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="container1">
+                                <ul>
+                                  <li class="dropdown1" >
+                                    <a href="#" data-toggle="dropdown"><span onclick="activeBtn()" >Buttons</span><i class="icon-arrow"></i></a>
+                                    <ul class="dropdown-menu1">
+                                        <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="container1">
+                                <ul>
+                                  <li class="dropdown1">
+                                    <a href="#" data-toggle="dropdown"><span onclick="activetoggle()">Toggle</span><i class="icon-arrow"></i></a>
+                                    <ul class="dropdown-menu1">
+                                        <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="container1">
+                                <ul>
+                                  <li class="dropdown1">
+                                    <a href="#" data-toggle="dropdown"><span onclick="activeForms()">Forms</span><i class="icon-arrow"></i></a>
+                                    <ul class="dropdown-menu1">
+                                        <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="container1">
+                                <ul>
+                                  <li class="dropdown1">
+                                    <a href="#" data-toggle="dropdown"><span onclick="activeMenu()">Menu List</span><i class="icon-arrow"></i></a>
+                                    <ul class="dropdown-menu1">
+                                        <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="container1">
+                                <ul>
+                                  <li class="dropdown1">
+                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                    <ul class="dropdown-menu1">
+                                        <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                          <div class="container1">
+                                            <ul>
+                                              <li class="dropdown1">
+                                                <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                <ul class="dropdown-menu1">
+                                                  <li><a href="#">Home</a></li>
+                                                  <li><a href="#">About Us</a></li>
+                                                  <li><a href="#">Services</a></li>
+                                                  <li><a href="#">Contact</a></li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>
+                        </ul>
+                    </div>
+                    <div class="side-nav-section">
+                        <div class="side-nav-header subheading">Navigational</div>
+                            <ul>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown"><span onclick="activeSearch()">Search Field</span><i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown">Breadcrumb <i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown"><span onclick="activePagination()">Pagination</span><i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown">Tags <i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown"><span onclick="activeSlider()">Sliders</span><i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown">Icons <i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown">Image Carousal <i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                            </ul>
+                    </div>
+                    <div class="side-nav-section">
+                        <div class="side-nav-header subheading">Informational</div>
+                            <ul>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown">Search Field<i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown">Breadcrumb <i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown"><span onclick="activePagination()">Pagination</span><i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown">Tags <i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown"><i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown">Icons <i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="container1">
+                                    <ul>
+                                      <li class="dropdown1">
+                                        <a href="#" data-toggle="dropdown">Image Carousal <i class="icon-arrow"></i></a>
+                                        <ul class="dropdown-menu1">
+                                            <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="container1">
+                                                <ul>
+                                                  <li class="dropdown1">
+                                                    <a href="#" data-toggle="dropdown">Text Fields <i class="icon-arrow"></i></a>
+                                                    <ul class="dropdown-menu1">
+                                                      <li><a href="#">Home</a></li>
+                                                      <li><a href="#">About Us</a></li>
+                                                      <li><a href="#">Services</a></li>
+                                                      <li><a href="#">Contact</a></li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                            </ul>
+                    </div>
+                    <div class="side-nav-section">
+                        <div class="side-nav-header subheading">API Reference</div>
+                            <ul>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/introduction">Introduction</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/authentication">Authentication</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/making-requests">Making requests</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/models">Models</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/completions">Completions</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/edits">Edits</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/images">Images</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/embeddings">Embeddings</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/files">Files</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/fine-tunes">Fine-tunes</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/moderations">Moderations</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/engines">Engines</li>
+                                <li class="scroll-link side-nav-item" href="/docs/api-reference/parameter-details">Parameter details</li>
+                            </ul>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <main>
+        <div class="docs-body" id="mydiv">
+            <div class="markdown-page markdown-content docs-introduction-page markdown-prompt-blockquote">
+                <div class="anchor-heading-root">
+                        <h1 class="anchor-heading">UI Components</h1>
+                </div>
+                <div class="img">
+                    <img src="./Picsart_23-01-06_00-53-08-807.jpg" alt="">
+                </div>
+            </div>
+        </div>
+                <div id="myDIV">
+                    <div>
+                        <button class="btn">Normal Button</button>
+                   </div>
+                   <div>
+                        <button class="btn btn-secondary">Secondary Button</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-loading"><span>Loading Button</span></button>
+                    </div>
+                    <div>
+                        <button class="btn btn-animated">Buy $99 Only</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-light">Normal Button</button>
+                   </div>
+                   <div>
+                        <button class="btn btn-alert">Alert</button>
+                   </div>
+                   <div>
+                        <button class="btn btn-attention">Attention</button>
+                   </div>
+                   <div>
+                        <button class="btn btn-like" onclick="like()">Like <span class="counter">0</span></button>
+                   </div>
+                   <div>
+                        <button class="btn btn-text-change-button" id="button" onclick="changeText()">Submit</button>
+                   </div>
+                   <div>
+                        <button class="btn">
+                            <i class="icon"><ion-icon name="logo-facebook"></ion-icon></i>
+                            <span class="text">Facebook</span>
+                        </button>
+                   </div>
+                   <div>
+                        <button class="btn__logo"><i class="icon"><ion-icon name="logo-facebook"></ion-icon></i></button>
+                   </div>
+                   <div>
+                        <button class="btn__logo"><i class="icon"><ion-icon name="cog-outline"></ion-icon></i></button>
+                   </div>
+                </div>
+                <div id="myDIV2">
+                    <div class="container">
+                        <ul>
+                          <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">First Menu <i class="icon-arrow"></i></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">Services</a></li>
+                              <li><a href="#">Contact</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <select class="dropdown-select">
+                          <option value="">Gender</option>
+                          <option value="1">Male</option>
+                          <option value="0">Female</option>
+                      </select>
+                      <select class="dropdown-select">
+                        <option value="">Size</option>
+                        <option value="1">Small</option>
+                        <option value="0">Medium</option>
+                        <option value="0">Large</option>
+                      </select>
+                      <select class="dropdown-select">
+                        <option value="">Country</option>
+                        <option value="1">India</option>
+                        <option value="0">United kingdom</option>
+                        <option value="0">United state</option>
+                      </select>
+                      <div class="container">
+                        <ul>
+                          <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Checkbox<i class="icon-arrow"></i></a>
+                            <ul class="dropdown-menu">
+                              <li><a><input type="checkbox" checked="checked"/> Select 1</a></li>
+                              <li><a><input type="checkbox" checked="checked"/> Select 2</a></li>
+                              <li><a><input type="checkbox" checked="checked"/> Select 3</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                        <div class="dropdown-search">
+                          <button onclick="dropdownSearch()" class="drop-btn">Dropdown Search</button>
+                          <div id="myDropdown" class="dropdown-item">
+                            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                            <a href="#about">About</a>
+                            <a href="#base">Base</a>
+                            <a href="#blog">Blog</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#custom">Custom</a>
+                            <a href="#support">Support</a>
+                            <a href="#tools">Tools</a>
+                          </div>
+                        </div>
+                </div>
+                <div id="myDIV3">
+                    <div>
+                        <ul>
+                            <li>
+                              <input id="s1" type="checkbox" class="switch">
+                              <label for="s1">Switch</label>
+                            </li>
+                            <li>
+                              <input id="s2" type="checkbox" class="switch" checked>
+                              <label for="s2">Switch</label>
+                            </li>
+                          </ul>
+                          <ul>
+                            <li>
+                              <input id="s1d" type="checkbox" class="switch" disabled>
+                              <label for="s1d">Switch</label>
+                            </li>
+                            <li>
+                              <input id="s2d" type="checkbox" class="switch" checked disabled>
+                              <label for="s2d">Switch</label>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+                <div id="myDIV4">
+                    <div class="container">
+                        <div class="control-group">
+                          <label class="control control--checkbox">
+                            <input type="checkbox" checked="checked"/>
+                            <div class="control__indicator"></div>
+                          </label>
+                          <label class="control control--checkbox">
+                            <input type="checkbox"/>
+                            <div class="control__indicator"></div>
+                          </label>
+                          <label class="control control--checkbox">
+                            <input type="checkbox" disabled="disabled"/>
+                            <div class="control__indicator"></div>
+                          </label>
+                          <label class="control control--checkbox">
+                            <input type="checkbox" disabled="disabled" checked="checked"/>
+                            <div class="control__indicator"></div>
+                          </label>
+                        </div>
+                      </div>
+                </div>
+                <div id="myDIV5">
+                    <div class="radio-group">
+                        <label class="radio control--radio">
+                          <input type="radio" name="radio" checked="checked"/>
+                          <div class="control__radio"></div>
+                        </label>
+                        <label class="radio control--radio">
+                          <input type="radio" name="radio"/>
+                          <div class="control__radio"></div>
+                        </label>
+                        <label class="radio control--radio">
+                          <input type="radio" name="radio2" disabled="disabled"/>
+                          <div class="control__radio"></div>
+                        </label>
+                        <label class="radio control--radio">
+                          <input type="radio" name="radio2" disabled="disabled" checked="checked"/>
+                          <div class="control__radio"></div>
+                        </label>
+                      </div>
+                </div>
+                <div id="myDIV6">
+                    <form class="form-container">
+                        <fieldset>
+                          <h2 class="fs-title">Create your account</h2>
+                          <h3 class="fs-subtitle">This is step 1</h3>
+                          <input type="text" name="email" placeholder="Email" />
+                          <input type="password" name="pass" placeholder="Password" />
+                          <input type="password" name="cpass" placeholder="Confirm Password" />
+                          <input type="button" name="next" class="next action-button" value="Next" />
+                        </fieldset>
+                      </form>
+                      <form class="form-container">
+                        <fieldset>
+                          <h2 class="fs-title">Social Profiles</h2>
+                          <h3 class="fs-subtitle">Your presence on the social network</h3>
+                          <input type="text" name="twitter" placeholder="Twitter" />
+                          <input type="text" name="facebook" placeholder="Facebook" />
+                          <input type="text" name="gplus" placeholder="Google Plus" />
+                          <input type="button" name="previous" class="previous action-button" value="Previous" />
+                          <input type="button" name="next" class="next action-button" value="Next" />
+                        </fieldset>
+                      </form>
+                      <form class="form-container">
+                        <fieldset>
+                          <h2 class="fs-title">Personal Details</h2>
+                          <h3 class="fs-subtitle">We will never sell it</h3>
+                          <input type="text" name="fname" placeholder="First Name" />
+                          <input type="text" name="lname" placeholder="Last Name" />
+                          <input type="text" name="phone" placeholder="Phone" />
+                          <textarea name="address" placeholder="Address"></textarea>
+                          <input type="button" name="previous" class="previous action-button" value="Previous" />
+                          <a href="" class="submit action-button" target="_top">Submit</a>
+                        </fieldset>
+                      </form>
+                </div>
+                <div id="myDIV7">
+                    <div class="container-menu">
+                        <!-- code here -->
+                        <div class="menu">
+                          <ul class="menu-list">
+                            <li class="menu-item"><button class="menu-button"><i data-feather="corner-up-right"></i><ion-icon name="share-social-outline"></ion-icon>Share</button></li>
+                            <li class="menu-item"><button class="menu-button"><i data-feather="edit-2"></i><ion-icon name="repeat-outline"></ion-icon>Rename</button></li>
+                          </ul>
+                          <ul class="menu-list">
+                            <li class="menu-item"><button class="menu-button menu-button--black"><i data-feather="circle"></i><ion-icon name="clipboard-outline"></ion-icon>No status<i data-feather="chevron-right"></i></button>
+                            <ul class="menu-sub-list">
+                              <li class="menu-item"><button class="menu-button"><i data-feather="square"></i><ion-icon name="speedometer-outline"></ion-icon>Needs review</button></li>
+                                      <li class="menu-item"><button class="menu-button"><i data-feather="octagon"></i><ion-icon name="bar-chart-outline"></ion-icon>In progress</button></li>
+                                      <li class="menu-item"><button class="menu-button"><i data-feather="triangle"></i><ion-icon name="checkmark-circle-outline"></ion-icon>Approved</button></li>
+                                      <li class="menu-item"><button class="menu-button"><i data-feather="circle"></i><ion-icon name="stats-chart-outline"></ion-icon>No status<i data-feather="check"></i></button></li>
+                            </ul>
+                            </li>
+                            <li class="menu-item"><button class="menu-button"><i data-feather="link"></i><ion-icon name="copy-outline"></ion-icon>Copy Link Address</button></li>
+                            <li class="menu-item"><button class="menu-button"><i data-feather="folder-plus"></i><ion-icon name="move-outline"></ion-icon>Move to</button></li>
+                            <li class="menu-item"><button class="menu-button"><i data-feather="copy"></i><ion-icon name="documents-outline"></ion-icon>Copy to</button></li>
+                            <li class="menu-item"><button class="menu-button"><i data-feather="lock"></i><ion-icon name="people-circle-outline"></ion-icon>Make Private</button></li>
+                            <li class="menu-item"><button class="menu-button"><i data-feather="download"></i><ion-icon name="arrow-down-circle-outline"></ion-icon>Download</button></li>
+                          </ul>
+                          <ul class="menu-list">
+                            <li class="menu-item"><button class="menu-button menu-button--delete"><i data-feather="trash-2"></i><ion-icon name="trash-outline"></ion-icon>Delete</button></li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+                <div id="myDIV8">
+                    <input class="search-box" type="text" placeholder="search...">
+                    <form class="search-container">
+                        <input type="text" id="search-bar" placeholder="search...">
+                        <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+                    </form>
+                </div>
+                <div id="myDIV9">
+                    <div class="pagination-primary">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a class="active" href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#" class="active">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">&raquo;</a>
+                    </div>  
+                    
+                    <p>Navigation pagination:</p>
+                    <div class="pagination link">
+                        <a href="#" class="active">Home</a>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <p>Breadcrumb Pagination</p>
+                        <ul class="breadcrumb">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Pictures</a></li>
+                          <li><a href="#">Summer 15</a></li>
+                          <li>Italy</li>
+                        </ul> 
+                </div>
+                <div id="myDIV10">
+                    <form class="form">
+                        <label for="range1">One Digit</label>
+                        <input class="slider" id="range1" name="range1" type="range" min="0" max="9" value="5">
+                        <label for="range2">More Digits</label>
+                        <input  class="slider" id="range2" name="range2" type="range" min="0" max="300" value="150">
+                    </form>
+                </div>
+    </main>
+    <script src="./toggle.js"></script>
+    <script src="./script.js"></script>
+    <script src="./components.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
